@@ -9,7 +9,7 @@ const Client = () => {
     useEffect(() => {
         const getApi = async () => {
             const response = await fetch(
-                "https://template-nextjs-black.vercel.app//api/hello"
+                "https://a-design-kamilmuhammad.vercel.app//api/hello"
             );
             const data = await response.json();
             setClients(data);
